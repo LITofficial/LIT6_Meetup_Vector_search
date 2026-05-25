@@ -1,6 +1,10 @@
 # 설명 가능한 벡터 검색 기반 컨텐츠 추천 알고리즘
 
 ---
+상세 컨텐츠 계획서 : 다음 Notion 링크 참고
+https://www.notion.so/36b69d31852b80bfb2e9cdf70892437e?source=copy_link
+
+
 # MealTube
 
 설명 가능한 벡터 검색 기반 콘텐츠 추천 시스템
