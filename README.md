@@ -7,7 +7,15 @@
 - MealTube(가명): 설명 가능한 벡터 검색 기반 콘텐츠 추천 시스템
     
     → 사용자가 유튜브 추천이나 검색 과정에서 영상을 바로 고르지 못할 때, 직접 키워드 카드를 선택해 현재 취향을 명시적으로 입력하고, 이를 벡터 검색 질의로 변환하여 의미적으로 가까운 콘텐츠를 추천하는 서비스
-    
+
+- ## 핵심 기능 요약
+
+- Keyword Card Selection: 사용자가 긍정/부정 키워드 카드를 선택
+- Preference Profile Generation: 선택 데이터를 취향 프로필 문장으로 변환
+- Embedding: 취향 프로필과 콘텐츠 정보를 벡터로 변환
+- Azure AI Search: Keyword / Vector / Hybrid Search 수행
+- Ranking: 유사도, 키워드 일치, 부정 태그 패널티를 반영해 정렬
+- Explainable Result: 선택 키워드, 콘텐츠 태그, 유사도 기반 추천 근거 표시
 
 ---
 
