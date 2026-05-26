@@ -1,4 +1,4 @@
-#Vector Search 기반 설명 가능한 콘텐츠 추천 알고리즘
+# Vector Search 기반 설명 가능한 콘텐츠 추천 알고리즘
 
 ---
 
