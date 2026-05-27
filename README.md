@@ -311,7 +311,7 @@ query_vector와 word_vectors 비교
 
 ---
 
-## 4-3. Azure 기반 Vector Search와 fallback 구조
+## 4-3. Azure 기반 Vector Search
 
 Azure 설정이 준비된 경우, 검색은 Azure OpenAI Embedding과 Azure AI Search의 Vector Search를 중심으로 수행된다. 여기서 임베딩 모델은 검색어와 입력 텍스트를 벡터로 변환하고, Azure AI Search는 생성된 벡터를 인덱싱한 뒤 query vector와 가까운 항목을 검색한다.
 
@@ -324,10 +324,6 @@ Azure AI Search
 → query vector 기반 유사도 검색
 → Top-K 결과 반환
 ```
-
-이 구분은 중요하다. Azure AI Search가 검색어의 의미를 임베딩으로 생성하는 단계까지 담당하는 것이 아니라, 임베딩 모델이 만든 벡터를 저장하고 검색하는 인프라로 활용되는 구조이기 때문이다.
-
-또한 데모에는 Azure 연결이 없거나 요청이 실패하는 상황에 대비한 fallback 검색 흐름을 둘 수 있다. fallback 검색은 실제 임베딩 기반 의미 검색과 동일한 방식은 아니지만, 문자열 정규화, 부분 일치, n-gram 기반 유사도 등을 활용해 검색어와 입력값 사이의 관련도를 계산한다. 이 구조는 발표 환경에서 네트워크나 API 설정 문제가 생겨도 데모 흐름을 유지하기 위한 안정장치 역할을 한다.
 
 ---
 
