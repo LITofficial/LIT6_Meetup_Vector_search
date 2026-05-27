@@ -1,5 +1,4 @@
 notion Link 
-> https://www.notion.so/Vector-Search-36c69d31852b808ca3b1e3262d92b11e?source=copy_link
 
 # Vector Search 기반 콘텐츠 추천 알고리즘
    ### 막연한 요구를 벡터 검색 기반 추천 흐름으로 연결하기
