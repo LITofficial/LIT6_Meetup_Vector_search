@@ -2,7 +2,7 @@
    ### 막연한 요구를 벡터 검색 기반 추천 흐름으로 연결하기
 
 <aside>
-⚙
+⚙ Notion: https://www.notion.so/36e69d31852b80fa8cb8d358a63dbc03?source=copy_link
 
 # **0. 흐름 요약**
 
